@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cardContain{
+    display: flex;
+    gap: 20px;
+}
+
+@media(max-width: 952px){
+    .cardContain{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 858px){
+    .cardContain{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
